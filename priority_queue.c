@@ -74,7 +74,7 @@ int dqueue(){
 int display(){
     pq* temp;
     for(temp = start;temp != NULL;temp = temp->next){
-        printf("\(%d, %d)->",temp->data,temp->pr);
+        printf("(%d, %d)->",temp->data,temp->pr);
     }
     printf("\n");
 
